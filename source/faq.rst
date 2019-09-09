@@ -17,7 +17,7 @@ FAQ
 	click on the "Click me to register" button at the bottom of the information section to register for the 
 	tournament!
 	
-**I accidentally registered for a tournament. How can I fix this?**
+**Oh no! I accidentally registered for a tournament!**
 --------------------------------------------------------------------
 	If you accidently registered for a tournament or need to unregister for any other reason you can do so
 	by click the "Click me to unregister" button where the "click me to register" button was!
