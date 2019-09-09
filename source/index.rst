@@ -14,6 +14,8 @@ Welcome the readme for the `Vallhalla Billiards Website <http://student2.cs.apps
 	
 	intro
 	faq
+	navigation
+	network
 	contact
 	licensing
 	
