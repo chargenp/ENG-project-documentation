@@ -3,10 +3,20 @@ FAQ
 
 **How do I create an account?**
 ----------------------------------
-
+	
 	1. If you're new and need an account press the Account button to be redirected to a login screen.
 	
+	.. image:: AccountMKP.png
+		:scale: 50%
+		
+	|	
+	
 	2. Press the "sign up here" button to create a new account.
+	
+	.. image:: SignUpMKP.png
+		:scale: 70%
+		
+	|
 	
 	3. Fill out the information for your new account.
 	
@@ -23,7 +33,17 @@ FAQ
 	
 	2. Go to the tournament listing page.
 	
+	.. image:: tournamentMKP.png
+		:scale: 50%
+		
+	|
+	
 	3. Find a tournament you would like to join and click on it to go to its page.
+	
+	.. image:: registertournamentMKP.png
+		:scale: 50%
+		
+	|
 	
 	4. Click on the "Click me to register" button at the bottom of the information section to register for the tournament.
 	
