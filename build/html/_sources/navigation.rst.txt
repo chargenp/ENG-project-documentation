@@ -3,6 +3,7 @@
 **Navigation**
 =================
 
+
 Here are some of the basic navigation tools that can be found on the website:
 
 	- Home brings you back to a chart of all pool halls listed on the website. 

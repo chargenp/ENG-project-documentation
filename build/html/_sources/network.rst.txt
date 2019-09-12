@@ -39,4 +39,4 @@ Every query is made using MySQLi's built in functions. More information can be f
 **Contribution**
 ----------------
 
-Theoretical github page for contributions to the website coding.
+Our GitHub page can be found `here <https://github.com/chargenp/valhalla-billiards-network>`_.

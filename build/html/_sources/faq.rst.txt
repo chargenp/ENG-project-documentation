@@ -4,23 +4,25 @@
 **How do I create an account?**
 ----------------------------------
 	
-	1. If you're new and need an account press the Account button to be redirected to a login screen.
+	1. If you're new and need an account press the Account button.
 	
 		.. image:: AccountMKP.png
 			:scale: 50%
 		
-	|	
 	
 	2. Press the "sign up here" button to create a new account.
 	
 		.. image:: SignUpMKP.png
 			:scale: 70%
 		
-	|
 	
 	3. Fill out the information for your new account.
 	
-	4. You will now be redirected back to the login screen where you will enter your newly made credentials to log in.
+		.. image:: signupinfo.png
+	
+	4. You will now be redirected back to the login screen.
+	
+	5. Enter your newly made credentials to log in.
 	
 **How do I make my way around the website?**
 ----------------------------------------------
@@ -36,16 +38,18 @@
 		.. image:: tournamentMKP.png
 			:scale: 50%
 		
-	|
 	
-	3. Find a tournament you would like to join and click on it to go to its page.
+	3. Find a tournament you would like to join.
+
+	4. Click on the tournament name to go to its page.
+		
+		.. image:: tnamemkp.png
+			:scale: 35%
+	
+	5. Click on the "Click me to register" button at the bottom of the information section to register for the tournament.
 	
 		.. image:: registertournamentMKP.png
 			:scale: 50%
-		
-	|
-	
-	4. Click on the "Click me to register" button at the bottom of the information section to register for the tournament.
 	
 **How do I unregister for a tournament?**
 --------------------------------------------------------------------
