@@ -18,12 +18,17 @@ FAQ
 	
 **How do I register for a tournament?**
 ------------------------------------------
+
 	1. Make sure you are logged in.
-	2. Find a tournament you would like to join and go to its page.
-	3. Click on the "Click me to register" button at the bottom of the information section to register for the tournament.
+	
+	2. Go to the tournament listing page.
+	
+	3. Find a tournament you would like to join and click on it to go to its page.
+	
+	4. Click on the "Click me to register" button at the bottom of the information section to register for the tournament.
 	
 **How do I unregister for a tournament?**
 --------------------------------------------------------------------
-	If you accidently registered for a tournament or need to unregister for any other reason you can do so
-	by click the "Click me to unregister" button where the "click me to register" button was!
+	If you accidently registered for a tournament or need to unregister for any other reason you view the previous steps 
+	for registering for a tournament and clicking the "Click me to unregister" button where the "click me to register" button was!
 
