@@ -3,9 +3,14 @@ FAQ
 
 **How do I create an account?**
 ----------------------------------
-	If you're new and need an account press the Account button. This will bring you to a login screen where 
-	you can press the sign up here button to create a new account. After filling out your information you will 
-	be directed back to the login screen where you can login with your new account credentials. 
+	1. If you're new and need an account press the Account button to be redirected to a login screen.
+
+	2. Press the "sign up here" button to create a new account. 
+
+    3. Fill out the information for your new account.
+
+	4. You will now be redirected back to the login screen where you will enter your newly made 
+    credentials to log in.
 	
 **How do I make my way around the website?**
 ----------------------------------------------
@@ -21,4 +26,4 @@ FAQ
 --------------------------------------------------------------------
 	If you accidently registered for a tournament or need to unregister for any other reason you can do so
 	by click the "Click me to unregister" button where the "click me to register" button was!
-	
+
