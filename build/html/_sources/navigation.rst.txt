@@ -1,7 +1,7 @@
 .. _navigation:
 
-Navigation
-===========
+**Navigation**
+=================
 
 Here are some of the basic navigation tools that can be found on the website:
 

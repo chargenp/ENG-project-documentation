@@ -1,7 +1,7 @@
 .. warning:: Advanced users only!
 
-Network Developer Guide
-========================
+**Network Developer Guide**
+============================
 
 This guide is for those developers who wish to see the inner workings of the website and 
 possibly contribute to its design. Below is information about the login system and the SQL queries 

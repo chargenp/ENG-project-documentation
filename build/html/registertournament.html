@@ -1,0 +1,270 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Network Developer Guide &mdash; Vallhalla Billiards Readme 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Vallhalla Billiards Readme
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="navigation.html">Navigation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contact.html">Contact Information</a></li>
+<li class="toctree-l1"><a class="reference internal" href="licensing.html">Licensing</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Vallhalla Billiards Readme</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Network Developer Guide</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/registertournament.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Advanced users only!</p>
+</div>
+<div class="section" id="network-developer-guide">
+<h1>Network Developer Guide<a class="headerlink" href="#network-developer-guide" title="Permalink to this headline">¶</a></h1>
+<p>This guide is for those developers who wish to see the inner workings of the website and
+possibly contribute to its design. Below is information about the login system and the SQL queries
+used on the website. We also have a very loose style guide for the website and some links to
+additional helpful information.</p>
+<div class="section" id="languages-used">
+<h2><strong>Languages Used</strong><a class="headerlink" href="#languages-used" title="Permalink to this headline">¶</a></h2>
+<p>Valhalla Billiards uses php and embedded HTML.</p>
+</div>
+<div class="section" id="login-system">
+<h2><strong>Login System</strong><a class="headerlink" href="#login-system" title="Permalink to this headline">¶</a></h2>
+<p>The current login system uses php session variables to determine if someone is logged into the site.
+After a user inputs their login credintials a simple SQL query is used to check if the account exists.</p>
+<blockquote>
+<div><p>SQL Query:</p>
+<blockquote>
+<div><div class="highlight-sql notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21</pre></div></td><td class="code"><div class="highlight"><pre><span></span>// Simple query
+$sql = &quot;SELECT email, username, password FROM Player WHERE username = &#39;&quot;.$username.&quot;&#39;&quot;;
+$result = $mysqli_conn-&gt;query($sql);                
+	
+// checks if query returned anything
+// checks if query returned anything
+if($result-&gt;num_rows &gt; 0){                   
+	$row = $result-&gt;fetch_assoc();
+		
+	// checks if password matches the username
+	if($password == $row[&quot;password&quot;]){
+		session_start();
+			
+	// Store data in session variables
+	$_SESSION[&quot;loggedin&quot;] = true;
+	$_SESSION[&quot;email&quot;] = $row[&quot;email&quot;];
+	$_SESSION[&quot;username&quot;] = $row[&quot;username&quot;];                            
+		
+	// Redirect user to welcome page after login 
+	header(&quot;location: http://student2.cs.appstate.edu/classes/3430/191/102/team1/scripts/index.php&quot;);
+}
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div></blockquote>
+<p>Using session variables means that every webpage must start with session_start() if the current user account info
+is needed on the page.</p>
+</div>
+<div class="section" id="sql-queries">
+<h2><strong>SQL Queries</strong><a class="headerlink" href="#sql-queries" title="Permalink to this headline">¶</a></h2>
+<p>Every query is made using MySQLi’s built in functions. More information can be found <a class="reference external" href="https://www.php.net/manual/en/book.mysqli.php">here</a>.</p>
+</div>
+<div class="section" id="contribution">
+<h2><strong>Contribution</strong><a class="headerlink" href="#contribution" title="Permalink to this headline">¶</a></h2>
+<p>Theoretical github page for contributions to the website coding.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Jeremy Latham, Brady Adcock
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

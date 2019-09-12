@@ -1,9 +1,8 @@
-Introduction
-============
-Valhalla Billiards Network provides a place for players to find pool halls and tournaments as well 
-as track the opposition! Using Valhalla Billiards website players can create a free account and sign 
-up for pool tournaments all over the world as well as track their freinds and favorite players.
-
-This guide is for new users who want to become more familiar with the Valhalla Billiards user interface! 
-Included is help with account creation, navigation buttons, and tournament registration! Also a section 
-for developers who are looking to help contribute and understand the source code running the website is included.
+**Introduction**
+==================
+Valhalla Billiards Network is a database network. Using Valhalla Billiards database, players create 
+free accounts to sign up for pool tournaments all over the world and track their freinds and favorite 
+players. This guide is for new users who want to become more familiar with the Valhalla Billiards 
+user interface. This readme covers account creation, tournament registration, and ways of navigation.
+The last section is a network developer guide for developers to contribute and understand some of the source
+code running the database.
