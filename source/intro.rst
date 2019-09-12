@@ -1,4 +1,4 @@
-Introduction
+**Introduction**
 ============
 Valhalla Billiards Network provides a place for players to find pool halls and tournaments as well 
 as track the opposition! Using Valhalla Billiards website players can create a free account and sign 
