@@ -3,15 +3,14 @@
 **Network Developer Guide**
 ============================
 
-This guide is for those developers who wish to see the inner workings of the website and 
-possibly contribute to its design. Below is information about the login system and the SQL queries 
-used on the website. We also have a very loose style guide for the website and some links to 
-additional helpful information.
+This guide is for those developers who wish to see the inner workings of the website and contribute to its design. 
+Below is information about the login system and the SQL queries used on the website. Also there is a very loose style 
+guide for the website and some links to additional helpful information.
 
 **Languages Used**
 ------------------
 
-Valhalla Billiards uses php and embedded HTML.
+Valhalla Billiards uses PHP and embedded HTML.
 
 
 **Login System**
@@ -33,10 +32,18 @@ is needed on the page.
 **SQL Queries**
 ---------------
 	
-Every query is made using MySQLi's built in functions. More information can be found `here <https://www.php.net/manual/en/book.mysqli.php>`_.
+Every query is made using MySQLi's built in functions. More information can be found 
+`here <https://www.php.net/manual/en/book.mysqli.php>`_.
 		
   
 **Contribution**
 ----------------
 
-Our GitHub page can be found `here <https://github.com/chargenp/valhalla-billiards-network>`_.
+If you wish to contribute to the design, go through our GitHub page which can be found 
+`here <https://github.com/chargenp/valhalla-billiards-network>`_.
+
+
+**Troubleshooting**
+------------------------
+
+If you are having trouble, or have any questions, go to our :ref:`troubleshooting` page for contact information so that we may assist you further.

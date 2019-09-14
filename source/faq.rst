@@ -1,3 +1,5 @@
+.. _FAQ:
+
 **FAQ**
 =========
 
@@ -26,7 +28,7 @@
 	
 **How do I make my way around the website?**
 ----------------------------------------------
-	We have an entire section dedicated to helping answer this. Go to our :ref:`navigation` page for more information!
+	We have an entire section dedicated to helping answer this. Go to our :ref:`navigation` page for more information.
 	
 **How do I register for a tournament?**
 ------------------------------------------
@@ -54,5 +56,5 @@
 **How do I unregister for a tournament?**
 --------------------------------------------------------------------
 	If you accidently registered for a tournament or need to unregister for any other reason you view the previous steps 
-	for registering for a tournament and clicking the "Click me to unregister" button where the "click me to register" button was.
+	for registering for a tournament and clicking the "Click me to unregister" button where the "Click me to register" button was.
 

@@ -12,10 +12,11 @@ Welcome the readme for the `Valhalla Billiards Website <http://student2.cs.appst
 .. toctree::
 	:maxdepth: 2
 	
+	licensing
 	intro
 	faq
 	navigation
 	network
-	contact
-	licensing
+	troubleshooting
+	
 	
