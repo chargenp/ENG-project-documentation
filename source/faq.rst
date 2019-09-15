@@ -20,7 +20,8 @@
 	
 	3. Fill out the information for your new account.
 	
-		.. image:: signupinfo.png
+		.. image:: signupinfo.PNG
+			:scale: 90%
 	
 	4. You will now be redirected back to the login screen.
 	
